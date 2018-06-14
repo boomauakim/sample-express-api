@@ -1,0 +1,31 @@
+{
+  "name": "sample-express-api",
+  "version": "1.0.0",
+  "description": "Sample Express API application",
+  "main": "index.js",
+  "author": "boomauakim",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "nodemon index.js",
+    "test": "mocha ./tests/ --recursive",
+    "test-coverage": "nyc --reporter=text --reporter=html mocha ./tests/ --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "nyc": "^12.0.2",
+    "prettier": "^1.13.5"
+  }
+}
