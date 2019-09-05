@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - "10.4.1"
-install:
-  - yarn install
-script:
-  - yarn test
-cache: yarn
